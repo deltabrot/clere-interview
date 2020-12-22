@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Clere Interview</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/276e2d9316.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <!-- navigation bar -->
+    <div class="navigation">
+      <div class="brand">
+        <span class="brand-logo">
+          <img
+            src="https://cdn.glitch.com/7388be2d-729e-48d1-917c-f6ee8263af65%2Fclere.png?v=1608638251684"
+          />
+        </span>
+        <span class="brand-title">Clere</span>
+      </div>
+      <nav class="links">
+        <a class="selected">Home</a>
+        <a href="hub.html">Hub</a>
+      </nav>
+    </div>
+
+    <!-- main content -->
+    <div class="main-content">
+      <div class="content">
+        <!-- filters -->
+        <div class="filter-wrapper">
+          <input
+            class="filter-input"
+            id="filter-name"
+            type="text"
+            placeholder="Name to filter by"
+          />
+          <input
+            class="filter-input"
+            id="filter-email"
+            type="text"
+            placeholder="Email to filter by"
+          />
+        </div>
+
+        <!-- data table -->
+        <table id="data-table">
+          <thead>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Email</th>
+          </thead>
+          <tbody id="data-table-body"></tbody>
+        </table>
+
+        <!-- table footer -->
+        <div class="table-footer">
+          <div class="showing-rows">
+            Showing
+            <span id="rows-shown">?</span>
+            of
+            <span id="total-rows">?</span>
+            rows
+          </div>
+          <div class="pagination-wrapper">
+            <div id="pagination-arrow-left">
+              <i class="fas fa-arrow-left"></i>
+            </div>
+            <div class="pagination-number">
+              Page
+              <span id="page-number">1</span>
+              of
+              <span id="page-number-max">?</span>
+            </div>
+            <div id="pagination-arrow-right">
+              <i class="fas fa-arrow-right"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- page footer -->
+    <div class="footer">
+      ©️ Copyright 2020 - Clere Golf
+    </div>
+
+    <!-- javascript -->
+    <script type="module" src="script.js"></script>
+  </body>
+</html>
