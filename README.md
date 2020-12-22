@@ -1,5 +1,7 @@
 # clere-interview
-This repository contains an example website with some known bugs.
+This repository contains an
+[example website](https://clere-interview.glitch.me/index.html) with some known
+bugs.
 
 The website itself has a page titled Home which should display a data grid,
 populated by the array of objects found in `data.js`.
