@@ -15,4 +15,4 @@ code base, or you can use the glitch.com editor which has already been
 set up with the files contained in this repository (You will have to click
 the 'Remix to Edit' button on the top right to make your own changes).
 
-(Link to glitch.com project)[https://glitch.com/edit/#!/clere-interview?path=index.html]
+[Link to glitch.com project](https://glitch.com/edit/#!/clere-interview?path=index.html)
